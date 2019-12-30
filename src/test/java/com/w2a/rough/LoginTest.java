@@ -13,6 +13,7 @@ public class LoginTest {
 
 
 		//This is a Rough Package
+		//Using Egit Plugin
 		HomePage home = new HomePage();
 		LoginPage lp = home.goToLogin();
 		ZohoAppPage zp = lp.doLogin("trainer@way2automation.com", "Selenium@123");
