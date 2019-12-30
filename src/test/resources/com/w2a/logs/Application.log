@@ -1,0 +1,14 @@
+29/12/2019 19:43:55 devpinoyLogger Config file loaded !!!
+29/12/2019 19:43:55 devpinoyLogger OR file loaded !!!
+29/12/2019 19:44:07 devpinoyLogger Navigated to : http://www.zoho.com/
+29/12/2019 19:44:14 devpinoyLogger Clicking on an Element : Login_xpath
+29/12/2019 19:44:14 devpinoyLogger Typing in an Element : Login_id_xpath entered value as : seleniumforchitta@gmail.com
+29/12/2019 19:44:14 devpinoyLogger Clicking on an Element : Nextbtn_xpath
+29/12/2019 19:44:14 devpinoyLogger Typing in an Element : Password_xpath entered value as : zoho@123
+29/12/2019 19:44:14 devpinoyLogger Clicking on an Element : SigninBtn_xpath
+29/12/2019 19:44:18 devpinoyLogger Clicking on an Element : booklink_xpath
+29/12/2019 19:44:20 devpinoyLogger Clicking on an Element : chatlink_xpath
+29/12/2019 19:44:26 devpinoyLogger Clicking on an Element : crmlink_xpath
+29/12/2019 19:44:26 devpinoyLogger Clicking on an Element : accountstab_xpath
+29/12/2019 19:44:27 devpinoyLogger Clicking on an Element : createaccountbtn_xpath
+29/12/2019 19:44:29 devpinoyLogger Typing in an Element : accountname_CSS entered value as : Chittaranjan

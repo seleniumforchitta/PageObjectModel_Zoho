@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="27756" started-at="2019-12-30T06:12:41Z" finished-at="2019-12-30T06:13:09Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="8232" started-at="2019-12-30T06:12:41Z" finished-at="2019-12-30T06:12:50Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="loginTest" duration-ms="5599" started-at="2019-12-30T11:42:42Z" data-provider="dp" finished-at="2019-12-30T11:42:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=zoho@123, runmode=Y, username=seleniumforchitta@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Create Account Test" duration-ms="18883" started-at="2019-12-30T06:12:50Z" finished-at="2019-12-30T06:13:09Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="tearDown" is-config="true" duration-ms="9301" started-at="2019-12-30T11:43:09Z" finished-at="2019-12-30T11:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+      <class name="com.w2a.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@3e821657]" name="createAccountTest" duration-ms="18803" started-at="2019-12-30T11:42:50Z" data-provider="dp" finished-at="2019-12-30T11:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountname=Chittaranjan}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.w2a.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
