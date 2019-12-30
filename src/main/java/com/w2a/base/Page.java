@@ -150,6 +150,10 @@ public class Page {
 	public static void quit() throws InterruptedException{
 		
 		
+		/*
+		 * Adding the code for signing out before quitting the driver.
+		 * 
+		 */
 		driver.findElement(By.xpath("//*[@class='dIB prfImg vat icnfilter']")).click();
 		driver.findElement(By.xpath("//a[@data-zcqa='signOut']")).click();
 		Thread.sleep(1000);
