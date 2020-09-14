@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Page Object Model" duration-ms="27756" started-at="2019-12-30T06:12:41Z" finished-at="2019-12-30T06:13:09Z">
+  <suite name="Page Object Model" duration-ms="19621" started-at="2020-07-26T17:27:45Z" finished-at="2020-07-26T17:28:05Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="8232" started-at="2019-12-30T06:12:41Z" finished-at="2019-12-30T06:12:50Z">
+    <test name="Login Test" duration-ms="3624" started-at="2020-07-26T17:27:45Z" finished-at="2020-07-26T17:27:49Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="loginTest" duration-ms="5599" started-at="2019-12-30T11:42:42Z" data-provider="dp" finished-at="2019-12-30T11:42:48Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="loginTest" duration-ms="3127" started-at="2020-07-26T22:57:45Z" data-provider="dp" finished-at="2020-07-26T22:57:48Z">
           <params>
             <param index="0">
               <value>
@@ -20,15 +20,15 @@
         </test-method> <!-- loginTest -->
       </class> <!-- com.w2a.testcases.LoginTest -->
     </test> <!-- Login Test -->
-    <test name="Create Account Test" duration-ms="18883" started-at="2019-12-30T06:12:50Z" finished-at="2019-12-30T06:13:09Z">
+    <test name="Create Account Test" duration-ms="15979" started-at="2020-07-26T17:27:49Z" finished-at="2020-07-26T17:28:05Z">
       <class name="com.w2a.testcases.LoginTest">
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="tearDown" is-config="true" duration-ms="9301" started-at="2019-12-30T11:43:09Z" finished-at="2019-12-30T11:43:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@2d1dee39]" name="tearDown" is-config="true" duration-ms="4618" started-at="2020-07-26T22:58:05Z" finished-at="2020-07-26T22:58:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.w2a.testcases.LoginTest -->
       <class name="com.w2a.testcases.CreateAccountTest">
-        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@3e821657]" name="createAccountTest" duration-ms="18803" started-at="2019-12-30T11:42:50Z" data-provider="dp" finished-at="2019-12-30T11:43:09Z">
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@3e821657]" name="createAccountTest" duration-ms="15911" started-at="2020-07-26T22:57:49Z" data-provider="dp" finished-at="2020-07-26T22:58:05Z">
           <params>
             <param index="0">
               <value>

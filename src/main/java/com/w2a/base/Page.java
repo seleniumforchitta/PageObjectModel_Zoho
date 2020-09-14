@@ -155,7 +155,7 @@ public class Page {
 		 * 
 		 */
 		driver.findElement(By.xpath("//*[@class='dIB prfImg vat icnfilter']")).click();
-		driver.findElement(By.xpath("//a[@data-zcqa='signOut']")).click();
+		driver.findElement(By.xpath("//button[@class='lyte-button button_cl lyteDefaultBtn']")).click();
 		Thread.sleep(1000);
 		driver.quit();	
 	}
