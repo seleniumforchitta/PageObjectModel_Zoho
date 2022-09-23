@@ -56,6 +56,7 @@ public class Page {
 	 * 
 	 */
 
+	@SuppressWarnings("deprecation")
 	public Page() {
 
 		if (driver == null) {
@@ -139,7 +140,7 @@ public class Page {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")),
 					TimeUnit.SECONDS);
-			wait = new WebDriverWait(driver, 5);
+			//wait = new WebDriverWait(driver, 5);
 			
 			menu = new TopMenu(driver);
 		}
